@@ -1,0 +1,27 @@
+@whole_under_management
+title: Whole Under Management
+subtitle: Defining Your Scope
+
+---
+
+Facilitator: "What is the whole under management for you?"
+
+- @me: "Me"
+- @family: "Family"
+- @school: "School"
+- @organization: "Organization"
+- @community: "Community"
+- @nation: "Nation"
+- @explain_whole: "Please explain what you mean by whole under management"
+
+@explain_whole
+title: Understanding Whole Under Management
+subtitle: Clarifying the Concept
+
+---
+
+Facilitator: "The whole under management refers to the complete system or entity you are responsible for managing. It could be yourself, your family, a school, an organization, a community, or even a nation."
+
+---
+
+- @define_whole: "Now, define your whole under management"

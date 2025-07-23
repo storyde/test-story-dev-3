@@ -1,9 +1,45 @@
-title: Qualities
-
-# this scene contains information for the sidebar.
-
+# This scene contains information for the sidebar.
 = Status
+This is the status bar. Your progress and stats are displayed here.
 
-This is the status bar. Stats can be displayed here.
+---
 
-Stat 1: [+ stat_1 +]
+Knowledge of Complexity: [+ complexity_knowledge +]
+Understanding of Management: [+ management_knowledge +]
+Systemic Knowledge: [+ systemic_knowledge +]
+Quality of Life Understanding: [+ quality_of_life_knowledge +]
+
+---
+
+[? if complexity_knowledge >= 9 : You have a profound understanding of complexity. ?]
+[? if complexity_knowledge < 9 and complexity_knowledge >= 7 : You have a strong grasp of complexity. ?]
+[? if complexity_knowledge < 7 and complexity_knowledge >= 5 : You have a moderate understanding of complexity. ?]
+[? if complexity_knowledge < 5 and complexity_knowledge >= 3 : You have a basic understanding of complexity. ?]
+[? if complexity_knowledge < 3 : You are just beginning to understand complexity. ?]
+
+[? if management_knowledge >= 9 : You have a profound understanding of management. ?]
+[? if management_knowledge < 9 and management_knowledge >= 7 : You have a strong grasp of management. ?]
+[? if management_knowledge < 7 and management_knowledge >= 5 : You have a moderate understanding of management. ?]
+[? if management_knowledge < 5 and management_knowledge >= 3 : You have a basic understanding of management. ?]
+[? if management_knowledge < 3 : You are just beginning to understand management. ?]
+
+[? if systemic_knowledge >= 9 : You have a profound understanding of systemic knowledge. ?]
+[? if systemic_knowledge < 9 and systemic_knowledge >= 7 : You have a strong grasp of systemic knowledge. ?]
+[? if systemic_knowledge < 7 and systemic_knowledge >= 5 : You have a moderate understanding of systemic knowledge. ?]
+[? if systemic_knowledge < 5 and systemic_knowledge >= 3 : You have a basic understanding of systemic knowledge. ?]
+[? if systemic_knowledge < 3 : You are just beginning to understand systemic knowledge. ?]
+
+[? if quality_of_life_knowledge >= 9 : You have a profound understanding of quality of life. ?]
+[? if quality_of_life_knowledge < 9 and quality_of_life_knowledge >= 7 : You have a strong grasp of quality of life. ?]
+[? if quality_of_life_knowledge < 7 and quality_of_life_knowledge >= 5 : You have a moderate understanding of quality of life. ?]
+[? if quality_of_life_knowledge < 5 and quality_of_life_knowledge >= 3 : You have a basic understanding of quality of life. ?]
+[? if quality_of_life_knowledge < 3 : You are just beginning to understand quality of life. ?]
+
+---
+
+- @back_to_game: Back to Game
+
+@back_to_game
+title: Back to Game
+subtitle: Continue Your Journey
+go-to: last_scene

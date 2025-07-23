@@ -1,11 +1,25 @@
-title: Context
+# This scene contains information for the sidebar.
+= Context Qualities
+This is your holistic context. Your choices are displayed here.
 
-# this scene contains information for the sidebar.
-
-= Context
-
-This is the context bar. The context will be displayed here.
-
-stories fill the air as people eat, drink, and have a good time.
+---
 
 You are [+ hunger : qhunger +].
+
+---
+
+Statement of Purpose: [+ statement_of_purpose +]
+Whole Under Management: [+ whole_under_management +]
+Quality of Life: [+ quality_of_life +]
+Future Resource Base: [+ future_resource_base +]
+Conditions: [+ conditions +]
+Behavior: [+ behavior +]
+
+---
+
+- @back_to_game: Back to Game
+
+@back_to_game
+title: Back to Game
+subtitle: Continue Your Journey
+go-to: last_scene

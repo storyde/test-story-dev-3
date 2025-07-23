@@ -1,0 +1,25 @@
+@statement_of_purpose
+title: Statement of Purpose
+subtitle: Defining Your Institution's Purpose
+
+---
+
+Facilitator: "What is your organization's purpose? Here are some options:"
+
+- Producing and selling goods or services
+- Providing financial and investment services
+- Developing digital technologies and platforms
+- Offering professional advice and consulting
+- Educating and cultivating skills
+- Promoting health and delivering medical services
+- Advocating for social or environmental causes
+- Preserving arts, culture, and heritage
+- Ensuring public safety and emergency response
+- Supporting communities through engagement and aid
+
+---
+
+Facilitator: "Choose one that resonates with your goals."
+
+- @select_purpose: "Select a purpose"
+- @skip_purpose: "Skip for now"

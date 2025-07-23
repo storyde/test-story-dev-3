@@ -1,0 +1,14 @@
+@polycrisis_side
+title: Side Conversation: Polycrisis
+new-page: false
+on-arrival: understanding += 1; achievement_intro = true; {! console.log("Unlocked achievement_intro. understanding += 1") !}
+
+---
+
+= What is the Polycrisis?
+
+A polycrisis is when many crises—economic, ecological, social—converge and compound each other. One crisis amplifies another. Unstable politics worsen inequality. Soil degradation weakens food systems. Trust erodes. Everything is connected. You watch a child draw on cracked pavement: a house, a river, a family. The dust blows it all away.
+
+---
+
+- @polywhat: Return
